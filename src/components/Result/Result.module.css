@@ -1,0 +1,46 @@
+.box {
+  margin: 2%;
+  padding: 15px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  width: 260px;
+}
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.txtcenter {
+  text-align: center;
+  margin: 1%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.fl{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgWH{
+    width: 150px;
+    height: 150px;
+}
+.blue{
+  color: rgb(37, 124, 211);
+}
+.marT10{
+  margin-top: 10%;
+}
+.mar10{
+  margin: 5px;;
+}
+.icon{
+position: relative;
+width: 10px;
+height: 10px;
+left: 105px;
+bottom:16px;
+cursor:pointer;
+}
