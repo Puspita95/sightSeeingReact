@@ -9,6 +9,7 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 .txtcenter {
   text-align: center;
@@ -40,7 +41,8 @@
 position: relative;
 width: 10px;
 height: 10px;
-left: 105px;
+left: 44%;
 bottom:16px;
 cursor:pointer;
+color: black;
 }
