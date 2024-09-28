@@ -8,7 +8,6 @@ import {
   Grid,
 } from "@mui/material";
 import CircularProgress from "@mui/material/CircularProgress";
-import Box from "@mui/material/Box";
 
 import { useSearchPickup } from "../../hooks/query/useSearchPickup";
 import { useAddTourDetails } from "../../hooks/mutation/useAddTourDetails";
@@ -20,8 +19,6 @@ const UserInput: React.FC<{}> = () => {
   const [duration, setDuration] = useState<string | "">("");
   const {
     data: pickupLocationList,
-    isLoading,
-    isError,
   } = useSearchPickup(pickupLocation);
   const tourData = useAddTourDetails();
 
